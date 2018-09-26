@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Profile form</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+       <form action="profile.php" method="post">
+           first Name:<input type="text" name="fname" placeholder= "eg.jade" required /><br>
+           last Name:<input type="text" name="lname"/><br>
+
+       <form method='post' enctype='multipart/form-data' action='profile.php'>  
+           File: <input type='file' name='profile'>  
+          
+           <fieldset>
+               email<input type="email" name="email"/>
+            </fieldset>
+           <input type="submit" />
+       </form>
+
+	</body>
+</html>
